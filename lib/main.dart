@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:placesfinal/places.dart';
+import 'package:placesfinal/places_cupertino.dart';
 import 'home.dart';
 
 void main() {
@@ -16,7 +17,7 @@ class MyApp extends StatelessWidget {
         primarySwatch: Colors.blue,
         visualDensity: VisualDensity.adaptivePlatformDensity
       ),
-      home: Places(),
+      home: PlacesCupertino(),
     );
   }
 }
